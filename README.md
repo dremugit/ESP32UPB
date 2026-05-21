@@ -25,7 +25,7 @@ software
 	watch serial monitor for complaints. at default DEBUG_LEVEL 1 should see UPB line traffic as Line -> MQTT 12345678...
 	if no traffic, swap 18 and 19 in sketch, re-upload
 
-	recommend once it shows data, to disconnect it from the computer. with many ESP32's on the desk it's easy to get them confused and upload a sketch to the wrong unit.
+recommend once it shows data, to disconnect it from the computer. with many ESP32's on the desk it's easy to get them confused and upload a sketch to the wrong unit.
 
 Second, build device
 	parts
