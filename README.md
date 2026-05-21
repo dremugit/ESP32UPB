@@ -17,13 +17,13 @@ First, build bridge.
 		USB power supply, as used for phone charger
 		short USB cable from the charger to whatever USB plug the ESP32 has (micro USB, USB-C)
 
-	hardware
-		Wire DB9 converter to 3v3 and ground on ESP32, Rx to 19, Tx to 18
+hardware
+	Wire DB9 converter to 3v3 and ground on ESP32, Rx to 19, Tx to 18
 
-	software
-		load and upload wupb_bridge_13 sketch
-		watch serial monitor for complaints. at default DEBUG_LEVEL 1 should see UPB line traffic as Line -> MQTT 12345678...
-		if no traffic, swap 18 and 19 in sketch, re-upload
+software
+	load and upload wupb_bridge_13 sketch
+	watch serial monitor for complaints. at default DEBUG_LEVEL 1 should see UPB line traffic as Line -> MQTT 12345678...
+	if no traffic, swap 18 and 19 in sketch, re-upload
 
 	recommend once it shows data, to disconnect it from the computer. with many ESP32's on the desk it's easy to get them confused and upload a sketch to the wrong unit.
 
