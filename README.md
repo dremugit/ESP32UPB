@@ -17,7 +17,7 @@ First, build bridge.
 		USB power supply, as used for phone charger
 		short USB cable from the charger to whatever USB plug the ESP32 has (micro USB, USB-C)
 
-	build
+	hardware
 		Wire DB9 converter to 3v3 and ground on ESP32, Rx to 19, Tx to 18
 
 	software
